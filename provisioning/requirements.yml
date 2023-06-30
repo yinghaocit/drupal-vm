@@ -59,7 +59,7 @@ roles:
   - name: geerlingguy.php-versions
     version: 5.0.0
   - name: geerlingguy.php-xdebug
-    version: 3.0.0
+    version: 3.1.0
   - name: geerlingguy.php-xhprof
     version: 3.0.0
   - name: geerlingguy.postfix
