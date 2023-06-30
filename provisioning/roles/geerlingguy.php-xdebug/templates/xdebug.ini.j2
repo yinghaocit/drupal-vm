@@ -1,6 +1,7 @@
 [XDebug]
 zend_extension="{{ php_xdebug_module_path }}/xdebug-{{ php_xdebug_version }}.so"
 
+# xdebug v2 config
 xdebug.coverage_enable={{ php_xdebug_coverage_enable }}
 xdebug.default_enable={{ php_xdebug_default_enable }}
 
@@ -11,6 +12,13 @@ xdebug.remote_port={{ php_xdebug_remote_port }}
 xdebug.remote_log={{ php_xdebug_remote_log }}
 xdebug.remote_autostart={{ php_xdebug_remote_autostart }}
 
+# xdebug v3 config
+xdebug.mode={{ php_xdebug_mode }}
+xdebug.client_host={{ php_xdebug_client_host }}
+xdebug.client_port={{ php_xdebug_client_port }}
+xdebug.discover_client_host={{ php_xdebug_discover_client_host }}
+
+# common config
 xdebug.idekey="{{ php_xdebug_idekey }}"
 
 xdebug.max_nesting_level={{ php_xdebug_max_nesting_level }}
